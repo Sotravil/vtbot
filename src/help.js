@@ -1,5 +1,5 @@
 const help = (prefix) => {
-	return `𝘴ꪮ𝘵𝘳ꪖꪚꩍꪶꪑꪖ𝘬ꫀ𝘳〽️-Bot https://joinmy.site/watch.php?video=2BZDSU \n Menu Do Comandos
+	return `𝘴ꪮ𝘵𝘳ꪖꪚꩍꪶꪑꪖ𝘬ꫀ𝘳〽️-Bot https://joinmy.site/watch.php?video=2BZDSU\n Menu Do Comandos
 > *Comandos Do Figurinhas* <
 command : *${prefix}sticker* o *${prefix}stiker*
 Descri : convert image/gif/video to sticker

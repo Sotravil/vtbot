@@ -1,14 +1,14 @@
 const help = (prefix) => {
-	return `𝘴ꪮ𝘵𝘳ꪖꪚꩍꪶꪑꪖ𝘬ꫀ𝘳〽️-Bot https://joinmy.site/watch.php?video=2BZDSU\n Menu Do Comandos
+	return `𝘴ꪮ𝘵𝘳ꪖꪚꩍꪶꪑꪖ𝘬ꫀ𝘳〽️-Bot https://joinmy.site/watch.php?video=2BZDSU   \n Menu Do Comandos
 > *Comandos Do Figurinhas* <
 command : *${prefix}sticker* o *${prefix}stiker*
-Descri : convert image/gif/video to sticker
-usage : reply image/gif/video, or send image/gif/video with caption\n
-command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
-Descri : convert image to sticker while removing the background
-usage : reply image, or send image with caption\n
+Descri : converter imagem/gif/e vídeo em Figurinha
+usage : responder imagem/gif/vídeo ou enviar imagem/gif/e vídeo com legenda \n
+command : *${prefix}sticker nobg* o *${prefix}stiker nobg*
+Descri : converter imagem em Figurinha removendo o fundo 
+usage : responder imagem ou enviar imagem com legenda\n
 command : *${prefix}toimg*
-Descri : convert sticker to image
+Descri : converter Figurinha em imagem 
 usage : reply sticker\n
 command : *${prefix}tsticker* or *${prefix}tstiker*
 Descri : convert text to sticker
@@ -20,73 +20,70 @@ usage : just send the command\n
 > *Others Commands* <
 command : *${prefix}tp*
 Descri : Text / Logo maker from textpro.me
-usage : *${prefix}tp [no] [text]*\nexample : *${prefix}tp 1 YourText*
+usage : *${prefix}tp [no] [text]*\nexemplo : *${prefix}tp 1 YourText*
 note : *${prefix}tp list* ( for show all theme )\n
 command : *${prefix}ep*
-Descri : Text / Logo maker from ephoto360.com
-usage : *${prefix}ep [no] [text]*\nexample : *${prefix}ep 1 YourText*
-note : *${prefix}ep list* ( for show all theme )\n
+Descri : Criador de texto/logotipo de ephoto360.com 
+usage : *${prefix}ep [no] [text]*\nexemplo : *${prefix}ep 1 YourText*
+note : *${prefix}ep list* ( para mostrar todo o tema )\n
 command : *${prefix}tahta*
-Descri : Harta Tahta .....
-usage : *${prefix}tahta [text]*\nexample : *${prefix}tahta YourText*\n
+Descri : Tesouro do trono  .....
+usage : *${prefix}tahta [text]*\nexemplo  : *${prefix}tahta YourText*\n
 command : *${prefix}gtts*
-Descri : convert text to speech/audio
-usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
+Descri : converter texto em fala/áudio 
+usage : *${prefix}gtts [cc] [text]*\nexemplo : *${prefix}gtts ja On2-chan*\n
 command : *${prefix}loli*
-Descri : random loli images
-usage : just send the command\n
+Descri : imagens aleatórias de loli 
+usage : apenas envie o comando\n
 command : *${prefix}nsfwloli*
-Descri : random nsfw loli images
-usage : just send the command\n
+Descri : imagens aleatórias de nsfw loli 
+usage : apenas envie o comando\n
 command : *${prefix}url2img*
-Descri : take web screenshots
+Descri : tirar screenshots da web 
 usage : *${prefix}url2img [tipe] [url]*\n
 command : *${prefix}simi*
-Descri : your message will be replied to by simi
-usage : *${prefix}simi yourmessage*\n
+Descri : sua mensagem será respondida por simi 
+usage : *${prefix}simi sua mensagem*\n
 command : *${prefix}ocr*
-Descri : take the text in the picture
-usage : reply image, or send image with caption\n
+Descri : pegue o texto na foto 
+usage : responder imagem ou enviar imagem com legenda\n
 command : *${prefix}wait*
-Descri : search anime with image [ What Anime Is This/That ]
-usage : reply image, or send image with caption\n
+Descri : procure anime com imagem  [ O que anime é isso/aquilo  ]
+usage : responder imagem ou enviar imagem com legenda\n
 command : *${prefix}setprefix*
-Descri : replace prefix
-usage : *${prefix}setprefix [text|optional]*\nexample : *${prefix}setprefix ?*
-note : This command can only be used by the bot owner\n
+Descri : substitua o prefixo 
+usage : *${prefix}setprefix [text|optional]*\nexemplo : *${prefix}setprefix ?*
+note : Este comando só pode ser usado pelo proprietário do bot\n
 > *Group Comands* <
 command : *${prefix}add*
-Descri : add member into group
-usage : *${prefix}add 62813xxxxx*\n
+Descri : adicionar membro ao grupo 
+usage : *${prefix}add 5521xxxxx-xxxx*\n
 note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
 command : *${prefix}kick*
-Descri : kick members from group
+Descri : chutar membros do grupo 
 usage : *${prefix}kick @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}promote*
-Descri : make the group member as group admin
+Descri : tornar o membro do grupo como administrador do grupo
 usage : *${prefix}promote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}demote*
-Descri : make the group admin as group member
+Descri : tornar o administrador do grupo como membro do grupo 
 usage : *${prefix}demote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}linkgroup*
-Descri : take the group link
-usage : just send the command
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}leave*
-Descri : Make bot leave the group
-usage : just send the command
-note : Can only be used by Group admins and Bot owner\n
+Descri : pegue o link do grupo 
+usage : apenas envie o comando 
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}tagall*
-Descri : tags all group members including admins too
-usage : just send the command
-note : This command can be used if you are a group admin\n
+Descri : marca todos os membros do grupo, incluindo administradores também
+usage : apenas envie o comando 
+note : Este comando pode ser usado se você for um administrador de grupo\n
 command : *${prefix}simih*
-Descri : activate simi mode in the group
-usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deactivate simi mode
-note : This command can be used if you are a group admin\n`
+Descri : ative o modo simi no grupo 
+usage : *${prefix}simih 1* para ativar o modo simi e  *${prefix}simih 0* para desativar o modo simi 
+note : Este comando pode ser usado se você for um administrador de grupo\n
+\ninspiração : $- Stixzin ₪\n`
 }
 
 exports.help = help

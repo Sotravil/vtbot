@@ -352,9 +352,9 @@ async function starts() {
 									fs.unlinkSync(media)	
 									fs.unlinkSync(ran)	
 								})
-								/*client.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
+								client.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
 								fs.unlinkSync(media)
-								fs.unlinkSync(ran)*/
+								fs.unlinkSync(ran)
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
 							.toFormat('webp')
@@ -373,7 +373,7 @@ async function starts() {
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`❌ Gagal, pada saat mengkonversi ${tipe} ke stiker`)
+								reply(`❌ Falha ao converter ${tipe} para Fig`)
 							})
 							.on('end', function () {
 								console.log('Finish')
@@ -414,7 +414,7 @@ async function starts() {
 								//client.sendMessage(from, fs.readFileSync(ranw), sticker, {quoted: mek})
 							})
 						})
-					/*} else if ((isMedia || isQuotedImage) && colors.includes(args[0])) {
+					} else if ((isMedia || isQuotedImage) && colors.includes(args[0])) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
 						ran = getRandom('.webp')
@@ -434,7 +434,7 @@ async function starts() {
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=${args[0]}@0.0, split [a][b]; [a] palettegen=reserve_transparent=off; [b][p] paletteuse`])
 							.toFormat('webp')
-							.save(ran)*/
+							.save(ran)
 					} else {
 						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
 					}
@@ -457,11 +457,11 @@ async function starts() {
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
-				/*case 'memeindo':
+				case 'memeindo':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
-					break*/
+					break
 				case 'setprefix':
 					if (args.length < 1) return
 					if (!isOwner) return reply(mess.only.ownerB)
@@ -489,7 +489,7 @@ async function starts() {
 					if (args.length < 1) return reply('Teksnya mana um?')
 					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/hilih?teks=${body.slice(7)}`, {method: 'get'})
 					reply(anu.result)
-					break*/
+					break
 				case 'yt2mp3':
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
@@ -520,7 +520,7 @@ async function starts() {
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, video, {quoted: mek})
 					break
-				/*case 'tiktokstalk':
+				case 'tiktokstalk':
 					try {
 						if (args.length < 1) return client.sendMessage(from, 'Usernamenya mana um?', text, {quoted: mek})
 						let { user, stats } = await tiktod.getUserProfileInfo(args[0])
@@ -571,8 +571,8 @@ async function starts() {
 							client.sendMessage(from, fs.readFileSync(rano), sticker, {quoted: mek})
 							fs.unlinkSync(rano)
 						})
-						/*client.sendMessage(from, fs.readFileSync(rano), sticker, {quoted: mek})
-						fs.unlinkSync(rano)*/
+						client.sendMessage(from, fs.readFileSync(rano), sticker, {quoted: mek})
+						fs.unlinkSync(rano)
 					})
 					break
 				case 'tagall':

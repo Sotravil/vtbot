@@ -219,7 +219,7 @@ async function starts() {
 					break
 				case 'trava79s':
 				case 'tulix':
-					client.sendMessage(from, tulix(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
 					break
 				case 'info':
 					me = client.user

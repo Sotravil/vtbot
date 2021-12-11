@@ -173,7 +173,7 @@ async function starts() {
 			if (authorname != undefined) { } else { authorname = groupName }	
 			
 			function addMetadata(packname, author) {	
-				if (!packname) packname = 'Stickers'; if (!author) author = '⽊ 𝘴ꪮ𝘵𝘳ꪖꪚꩍꪶꪑꪖ𝘬ꫀ𝘳〽️';	
+				if (!packname) packname = 'Stickers'; if (!author) author = '▪👻𝑑𝑒𝑚𝑜𝑧𝑖𝑛𝑚𝑎𝑘𝑒𝑟*🛒▪⁩';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -217,28 +217,28 @@ async function starts() {
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
 					break
-				case 'trava79s':
-				case 'tulix':
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
-					client.sendMessage(from, trava79s(prefix), text)
+				case 'Dmnzin':
+				case 'Demon':
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
+					client.sendMessage(from, Dmnzin(prefix), text)
 					break
 				case 'info':
 					me = client.user

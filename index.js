@@ -116,11 +116,11 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Sedang di Prosess ⌛',
+				wait: '⌛ Em processo ⌛',
 				success: '✔️ Berhasil ✔️',
 				error: {
-					stick: '❌ Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-					Iv: '❌ Link tidak valid ❌'
+					stick: '❌ Falha, ocorreu um erro ao converter a imagem em uma Figurinha ❌',
+					Iv: '❌ Link inválido  ❌'
 				},
 				only: {
 					group: '❌ Este comando só pode ser usado em grupos! ❌',

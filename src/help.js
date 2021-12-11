@@ -1,5 +1,5 @@
 const help = (prefix) => {
-	return `*▪👻𝑑𝑒𝑚𝑜𝑧𝑖𝑛𝑚𝑎𝑘𝑒𝑟*🛒▪⁩ Bot Do Atraso \n  \n
+	return `*▪👻𝑑𝑒𝑚𝑜𝑧𝑖𝑛𝑚𝑎𝑘𝑒𝑟*🛒▪⁩ Bot Do Atraso \n https://youtu.be/T0UfGFQcWtk  \n
 *Figurinha* \n
 .sticker\n \n
 *Atraso #1* \n

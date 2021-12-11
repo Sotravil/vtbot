@@ -223,6 +223,22 @@ async function starts() {
 					client.sendMessage(from, trava79s(prefix), text)
 					client.sendMessage(from, trava79s(prefix), text)
 					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
+					client.sendMessage(from, trava79s(prefix), text)
 					break
 				case 'info':
 					me = client.user

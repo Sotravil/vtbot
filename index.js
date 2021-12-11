@@ -118,7 +118,7 @@ async function starts() {
 
 			mess = {
 				wait: '⌛ Em processo ⌛',
-				success: '✔️ Berhasil ✔️',
+				success: '✔️ Sucesso ✔️',
 				error: {
 					stick: '❌ Falha, ocorreu um erro ao converter a imagem em uma Figurinha ❌',
 					Iv: '❌ Link inválido  ❌'
@@ -470,7 +470,7 @@ async function starts() {
 					fs.writeFileSync('./src/settings.json', JSON.stringify(setting, null, '\t'))
 					reply(`Prefix berhasil di ubah menjadi : ${prefix}`)
 					break
-				/*case 'loli':
+				case 'loli':
 					loli.getSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERROR* ❌')
 						buffer = await getBuffer(res.url)

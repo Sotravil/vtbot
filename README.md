@@ -19,7 +19,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/MhankBarBar/termux-wabot
+> git clone https://github.com/Sotravil/DemonzinBot
 ```
 
 ## Install the dependencies:
@@ -27,20 +27,20 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd termux-wabot
+> cd DemonzinBot
 > bash install.sh
 ```
 
 ### Usage
 ```bash
-> npm start
+> node index.js
 ```
 
 ### Settings
 ```json
 {
 	"prefix": ".",
-	"ownerNumber": "62858xxxxx",
+	"ownerNumber": "5521xxxxx",
 	"apiKey": "Your ApiKey here"
 }
 ```

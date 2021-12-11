@@ -218,7 +218,7 @@ async function starts() {
 					client.sendMessage(from, help(prefix), text)
 					break
 				case 'Dmnzin':
-				case 'Demon':
+				case 'Demo/1':
 					client.sendMessage(from, Dmnzin(prefix), text)
 					client.sendMessage(from, Dmnzin(prefix), text)
 					client.sendMessage(from, Dmnzin(prefix), text)

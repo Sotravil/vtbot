@@ -173,7 +173,7 @@ async function starts() {
 			if (authorname != undefined) { } else { authorname = groupName }	
 			
 			function addMetadata(packname, author) {	
-				if (!packname) packname = 'Stickers'; if (!author) author = '▪👻𝑑𝑒𝑚𝑜𝑧𝑖𝑛𝑚𝑎𝑘𝑒𝑟*🛒▪⁩';	
+				if (!packname) packname = 'Stickers'; if (!author) author = 'victor⁩';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -216,29 +216,6 @@ async function starts() {
 				case 'help':
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
-					break
-				case 'Dmnzin':
-				case 'demon1':
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
-					client.sendMessage(from, Dmnzin(prefix), text)
 					break
 				case 'info':
 					me = client.user

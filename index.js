@@ -173,7 +173,7 @@ async function starts() {
 			if (authorname != undefined) { } else { authorname = groupName }	
 			
 			function addMetadata(packname, author) {	
-				if (!packname) packname = 'Stickers'; if (!author) author = 'victor⁩';	
+				if (!packname) packname = 'Stickers'; if (!author) author = 'victor';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`

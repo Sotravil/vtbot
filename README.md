@@ -12,7 +12,7 @@
 <a href="https://github.com/Sotravil/DemonzinBot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Sotravil/DemonzinBot?color=red&style=flat-square"></a>
 <a href="https://github.com/Sotravil/DemonzinBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Sotravil/DemonzinBot?color=red&style=flat-square"></a>
 <a href="https://github.com/Sotravil/DemonzinBot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Sotravil/DemonzinBot?label=Watchers&color=blue&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-green.svg"</a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-NO-green.svg"</a>
 </p>
 
 ## Clone this project

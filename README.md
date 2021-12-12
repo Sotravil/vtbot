@@ -18,7 +18,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/Sotravil/DemonzinBot
+> git clone https://github.com/Sotravil/vtbot
 ```
 
 ## Install the dependencies:
@@ -26,7 +26,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd DemonzinBot
+> cd vtbot
 > bash install.sh
 ```
 
